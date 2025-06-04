@@ -49,4 +49,4 @@ predict.py can output Matrix confusion, ROC-AUC (OvR), t-SNE, LIME, Shap and bas
 
 List of used publications for datasets in publis_list folder
 
-Datasets available at : [https://www.kaggle.com/datasets/pyraro/triassic-cephalopods](https://kaggle.com/datasets/d4654299a78b2e69d97e4bede802604fa1e098cee3d948e4a807a2e4a87d564e)
+Datasets available at : https://www.kaggle.com/datasets/pyraro/triassic-cephalopods
