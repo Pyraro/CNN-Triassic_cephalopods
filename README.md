@@ -6,7 +6,7 @@ Originally trained on nvidia tensorflow docker container version 25.02 with rtx 
 ```bash
 pip install -r requirements.txt
 ```
-##Training:
+## Training:
 ```bash
  usage: training.py [-h] [-sz SIZE_IMG] [-b BATCH] [-cm COLOR_MODE] [-d DROPOUT] [-bl BASE_LEARNING_RATE] [-ie INITIAL_EPOCHS] [-fe FINE_EPOCHS] [-fl FREEZE_LAYER] [-wa WEIGHT_ARCHI] [-vs VALID_SPLIT]
                         [-ts TEST_SPLIT] [-dp DATA_PATH] [-sp SAVE_PATH] [-sn SAVE_FILENAME] [-sh]
@@ -44,10 +44,10 @@ options:
                         Nom du fichier de sauvegarde
   -sh, --show_plot      Montre les figures à la fin
 ```
-##Prediction:
+## Prediction:
 
 predict.py can output Matrix confusion, ROC-AUC (OvR), t-SNE, LIME, Shap and basic stats
 
-##List of used publications for datasets in publis_list folder:
+## List of used publications for datasets in publis_list folder:
 
 Datasets available at : https://www.kaggle.com/datasets/pyraro/triassic-cephalopods
