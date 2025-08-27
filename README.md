@@ -1,16 +1,17 @@
-CNN for triassic cephalopods fetched from publications
+# CNN for triassic cephalopods fetched from publications
 
-Installation:
+## Installation:
 
 Originally trained on nvidia tensorflow docker container version 25.02 with rtx 5070 12 Go
-
+```bash
 pip install -r requirements.txt
-
-Training:
-
+```
+##Training:
+```bash
  usage: training.py [-h] [-sz SIZE_IMG] [-b BATCH] [-cm COLOR_MODE] [-d DROPOUT] [-bl BASE_LEARNING_RATE] [-ie INITIAL_EPOCHS] [-fe FINE_EPOCHS] [-fl FREEZE_LAYER] [-wa WEIGHT_ARCHI] [-vs VALID_SPLIT]
                         [-ts TEST_SPLIT] [-dp DATA_PATH] [-sp SAVE_PATH] [-sn SAVE_FILENAME] [-sh]
-
+```
+```bash
 options:
   -h, --help            show this help message and exit
   -sz SIZE_IMG, --size_img SIZE_IMG
@@ -42,11 +43,11 @@ options:
   -sn SAVE_FILENAME, --save_filename SAVE_FILENAME
                         Nom du fichier de sauvegarde
   -sh, --show_plot      Montre les figures à la fin
-
-Prediction:
+```
+##Prediction:
 
 predict.py can output Matrix confusion, ROC-AUC (OvR), t-SNE, LIME, Shap and basic stats
 
-List of used publications for datasets in publis_list folder
+##List of used publications for datasets in publis_list folder:
 
 Datasets available at : https://www.kaggle.com/datasets/pyraro/triassic-cephalopods
