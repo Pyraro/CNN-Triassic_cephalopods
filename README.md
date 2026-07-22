@@ -1,8 +1,7 @@
 # CNN for triassic cephalopods fetched from publications
 
 ## Installation:
-
-Originally trained on nvidia tensorflow docker container version 25.02 with rtx 5070 12 Go
+Originally trained on nvidia tensorflow docker container version 25.02 with rtx 5070 12 Go. See T.COLIN_2025.pdf for more info....
 ```bash
 pip install -r requirements.txt
 ```
